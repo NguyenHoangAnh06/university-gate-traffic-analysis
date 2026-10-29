@@ -1,0 +1,50 @@
+# Local datasets, archives, junctions, and generated inventories
+/data/*
+!/data/README.md
+!/data/download_sources.json
+!/data/tracking_download_sources.json
+
+# Project description kept locally
+/Mô tả bài toán.docx
+~$*.docx
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Model weights and training outputs
+*.pt
+*.pth
+*.ckpt
+*.onnx
+/runs/
+/outputs/
+/checkpoints/
+/wandb/
+*.log
+
+# Download archives and incomplete transfers
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.part
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
